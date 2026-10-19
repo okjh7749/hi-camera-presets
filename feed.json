@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2026-10-19-v2",
+  "version": "2026-10-19-source-instructional-lessons-v1",
   "presets": [
     {
       "id": "fullbody_longlegs",
@@ -1287,5 +1287,1317 @@
         "coordinates_verified_from_image": false
       }
     }
-  ]
+  ],
+  "composition_lessons": [
+    {
+      "id": "ig_DegMcFyiV7R_0",
+      "title": "삼각형 포즈",
+      "scene_tags": [
+        "portrait",
+        "full_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "팔·다리가 삼각형으로 보이도록 카메라 방향을 조절하세요.",
+      "subject_instruction": "한 팔과 다리를 구부려 삼각형을 만드세요.",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_1",
+      "title": "전경·중경·원경",
+      "scene_tags": [
+        "outdoor",
+        "travel"
+      ],
+      "composition_family": "layer",
+      "photographer_instruction": "잎이나 난간을 전경에 두고 인물·배경의 깊이를 나누세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_2",
+      "title": "삼분할 배치",
+      "scene_tags": [
+        "portrait",
+        "urban"
+      ],
+      "composition_family": "thirds",
+      "photographer_instruction": "인물을 좌우 1/3 지점에 배치하고 남은 배경을 살리세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_4",
+      "title": "시선 방향 여백",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "gaze",
+      "photographer_instruction": "시선이 향하는 쪽에 화면 여백을 남겨주세요.",
+      "subject_instruction": "사이드 방향으로 자연스럽게 바라보세요.",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_5",
+      "title": "전경 프레임",
+      "scene_tags": [
+        "architecture",
+        "cafe"
+      ],
+      "composition_family": "frame",
+      "photographer_instruction": "문틀·나뭇잎 등으로 화면 주변을 감싸는 프레임을 만드세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_6",
+      "title": "리딩라인",
+      "scene_tags": [
+        "urban",
+        "architecture"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "길·난간의 선이 인물 쪽을 향하도록 위치를 이동하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_7",
+      "title": "중앙 구도",
+      "scene_tags": [
+        "portrait",
+        "architecture"
+      ],
+      "composition_family": "center",
+      "photographer_instruction": "강한 대칭선이 있다면 중앙에 인물을 두고 수평을 맞추세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_8",
+      "title": "네거티브 스페이스",
+      "scene_tags": [
+        "travel",
+        "portrait"
+      ],
+      "composition_family": "space",
+      "photographer_instruction": "배경의 단순한 공간을 넓게 두어 인물이 돋보이게 해주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_9",
+      "title": "크기 대비",
+      "scene_tags": [
+        "landscape",
+        "travel"
+      ],
+      "composition_family": "scale",
+      "photographer_instruction": "인물을 작게 배치해 큰 산·건물과 크기를 대비시키세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DegMcFyiV7R_10",
+      "title": "반영 구도",
+      "scene_tags": [
+        "mirror",
+        "reflection"
+      ],
+      "composition_family": "reflection",
+      "photographer_instruction": "바닥 물웅덩이·유리의 반사를 먼저 찾고 카메라를 낮춰 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DbUs26oCW3k_1",
+      "title": "건물 구조 중앙",
+      "scene_tags": [
+        "urban",
+        "architecture"
+      ],
+      "composition_family": "center",
+      "photographer_instruction": "아치와 통로의 대칭축에 피사체를 배치하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DbUs26oCW3k/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DbUs26oCW3k_2",
+      "title": "넓은 화각 리딩라인",
+      "scene_tags": [
+        "urban",
+        "travel"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "넓은 화각에서 가까운 바닥 선과 먼 인물의 원근감을 확인하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DbUs26oCW3k/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DbUs26oCW3k_4",
+      "title": "계단 선 유도",
+      "scene_tags": [
+        "urban",
+        "portrait"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "계단의 선이 인물을 향하도록 촬영 위치를 옮기세요.",
+      "subject_instruction": "계단 위에서 잠시 멈추고 포즈를 취해 보세요.",
+      "source_url": "https://www.instagram.com/p/DbUs26oCW3k/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_0",
+      "title": "측면 얼굴",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "profile",
+      "photographer_instruction": "옆얼굴이 배경과 분리되는 위치를 찾으세요.",
+      "subject_instruction": "카메라에 옆모습을 보여주세요.",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_1",
+      "title": "테이블 선 유도",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "테이블 모서리와 벽의 선이 인물로 연결되게 구성하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_2",
+      "title": "식물 프레임",
+      "scene_tags": [
+        "cafe",
+        "travel"
+      ],
+      "composition_family": "frame",
+      "photographer_instruction": "잎을 전경 가장자리로 두고 인물에 초점을 맞춰 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_3",
+      "title": "디저트 삼각형 포즈",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "얼굴·음료·팔이 삼각형이 되도록 배치해 주세요.",
+      "subject_instruction": "손에 디저트를 들고 살짝 얼굴 가까이 가져오세요.",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_4",
+      "title": "하이앵글 카페",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "high",
+      "photographer_instruction": "카메라를 피사체 눈높이보다 조금 높게 해 주세요.",
+      "subject_instruction": "시선은 카메라 위쪽을 자연스럽게 바라보세요.",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Db7VoVYiS3m_5",
+      "title": "머리·팔·다리 삼각",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "전신의 선이 뭉치지 않도록 여백을 확인하세요.",
+      "subject_instruction": "팔과 다리를 구부리고 머리 방향을 돌려 보세요.",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DcVDxHpietu_0",
+      "title": "위쪽에서 인물",
+      "scene_tags": [
+        "portrait",
+        "cafe"
+      ],
+      "composition_family": "high",
+      "photographer_instruction": "눈높이보다 약간 높은 위치에서 촬영해 주세요.",
+      "subject_instruction": "턱을 살짝 들고 시선을 렌즈에 주세요.",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DcVDxHpietu_1",
+      "title": "소품으로 얼굴 가리기",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "occlusion",
+      "photographer_instruction": "소품과 얼굴의 겹침을 확인하며 과하게 가리지 않게 해 주세요.",
+      "subject_instruction": "디저트로 얼굴 일부만 가려 보세요.",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DcVDxHpietu_2",
+      "title": "스푼 소품 연출",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "손과 얼굴을 모두 보이도록 프레임에 넣어 주세요.",
+      "subject_instruction": "스푼을 들고 시선을 옆으로 주세요.",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DcVDxHpietu_3",
+      "title": "인물 한쪽 배치",
+      "scene_tags": [
+        "portrait",
+        "cafe"
+      ],
+      "composition_family": "thirds",
+      "photographer_instruction": "인물을 약간 한쪽으로 배치하고 배경 여백을 남겨 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DcVDxHpietu_4",
+      "title": "중앙 고개 기울이기",
+      "scene_tags": [
+        "portrait",
+        "cafe"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "사람을 중앙에 두되 어깨와 얼굴 각도를 살려 보세요.",
+      "subject_instruction": "고개를 살짝 기울이고 턱을 당겨 주세요.",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_0",
+      "title": "머리 넘기기",
+      "scene_tags": [
+        "portrait",
+        "outdoor"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "손과 머리카락이 잘리지 않게 화면을 조금 넓혀 주세요.",
+      "subject_instruction": "머리를 한 손으로 가볍게 넘겨 보세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_1",
+      "title": "카메라 밖 시선",
+      "scene_tags": [
+        "portrait",
+        "outdoor"
+      ],
+      "composition_family": "gaze",
+      "photographer_instruction": "인물의 시선 방향 여백을 넉넉히 주세요.",
+      "subject_instruction": "렌즈가 아닌 옆 풍경을 바라보세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_2",
+      "title": "귓가 손 동작",
+      "scene_tags": [
+        "portrait",
+        "outdoor"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "손과 얼굴 사이에 작은 공간을 만들어 주세요.",
+      "subject_instruction": "한 손을 귓가에 살짝 대 보세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_3",
+      "title": "몸 45도 포즈",
+      "scene_tags": [
+        "portrait",
+        "full_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "정면보다 몸의 윤곽이 잘 보이는 각도로 이동해 주세요.",
+      "subject_instruction": "몸을 약간 45도 돌리고 체중을 한쪽 다리에 주세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_4",
+      "title": "하늘 바라보기",
+      "scene_tags": [
+        "travel",
+        "outdoor"
+      ],
+      "composition_family": "gaze",
+      "photographer_instruction": "시선 방향에 하늘 공간이 남도록 배치하세요.",
+      "subject_instruction": "고개를 들어 하늘을 바라보세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_Dcvtwfxif9M_6",
+      "title": "풀잎 소품 동작",
+      "scene_tags": [
+        "outdoor",
+        "travel"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "인물의 손과 풍경이 겹치지 않게 프레임을 이동하세요.",
+      "subject_instruction": "풀잎을 살짝 만지며 자연스럽게 서 보세요.",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_0",
+      "title": "억새길 중앙",
+      "scene_tags": [
+        "travel",
+        "nature"
+      ],
+      "composition_family": "center",
+      "photographer_instruction": "억새길을 중앙에 넣고 인물이 선을 따라 서게 해 주세요.",
+      "subject_instruction": "길을 따라 천천히 걸어 보세요.",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_1",
+      "title": "억새 사이 작은 인물",
+      "scene_tags": [
+        "travel",
+        "nature"
+      ],
+      "composition_family": "scale",
+      "photographer_instruction": "앞쪽 억새가 사람을 가리지 않게 레이어를 배치해 주세요.",
+      "subject_instruction": "멀리서 풍경을 바라보며 서 보세요.",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_2",
+      "title": "억새 전중원경 레이어",
+      "scene_tags": [
+        "travel",
+        "nature"
+      ],
+      "composition_family": "layer",
+      "photographer_instruction": "가까운 억새·인물·먼 산이 각각 다른 거리층이 되게 하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_3",
+      "title": "낮은 위치 하늘 확보",
+      "scene_tags": [
+        "travel",
+        "nature"
+      ],
+      "composition_family": "low",
+      "photographer_instruction": "무릎 높이 부근에서 하늘을 넉넉히 보이게 해 보세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_5",
+      "title": "명소 시선 연결",
+      "scene_tags": [
+        "travel",
+        "urban"
+      ],
+      "composition_family": "gaze",
+      "photographer_instruction": "인물의 시선이 건물이나 풍경을 향하는 구성으로 이동하세요.",
+      "subject_instruction": "명소를 바라보세요.",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DeTtJ6viYCw_6",
+      "title": "인물 아래쪽 배치",
+      "scene_tags": [
+        "travel",
+        "nature"
+      ],
+      "composition_family": "space",
+      "photographer_instruction": "인물을 화면 아래쪽에 두고 위쪽 하늘 여백을 강조해 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_0",
+      "title": "창가 앉은 뒷모습",
+      "scene_tags": [
+        "cafe",
+        "travel"
+      ],
+      "composition_family": "back",
+      "photographer_instruction": "창틀과 창밖 배경을 살리며 인물을 측면·후면에 배치해 주세요.",
+      "subject_instruction": "창을 바라보고 앉아 보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_1",
+      "title": "음료 들고 창밖 보기",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "컵과 얼굴이 겹치지 않게 창가에서 카메라를 이동하세요.",
+      "subject_instruction": "음료를 들고 창밖을 바라보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_2",
+      "title": "머리 묶는 동작",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "손과 머리 주변에 충분한 공간을 확보해 주세요.",
+      "subject_instruction": "머리를 묶는 자연스러운 동작을 해 보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_3",
+      "title": "멀리서 망원 반신",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "telephoto",
+      "photographer_instruction": "뒤로 물러나 망원 배율로 촬영해 배경을 차분하게 압축하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_4",
+      "title": "창가 선 뒷모습",
+      "scene_tags": [
+        "cafe",
+        "travel"
+      ],
+      "composition_family": "back",
+      "photographer_instruction": "창이 인물 뒤에 넉넉히 들어오게 거리를 잡으세요.",
+      "subject_instruction": "창밖 풍경을 바라보고 서 보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_5",
+      "title": "계단 내려가기",
+      "scene_tags": [
+        "urban",
+        "travel"
+      ],
+      "composition_family": "motion",
+      "photographer_instruction": "계단 리딩라인을 따라 전신을 넣고 동작 중 촬영하세요.",
+      "subject_instruction": "천천히 계단을 내려와 보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_6",
+      "title": "거울 반영 인물",
+      "scene_tags": [
+        "mirror",
+        "cafe"
+      ],
+      "composition_family": "reflection",
+      "photographer_instruction": "거울 가장자리와 반영을 함께 넣어 카메라가 가리지 않게 해 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "ig_DZQ3cTIk_TU_7",
+      "title": "하이앵글 카페",
+      "scene_tags": [
+        "cafe",
+        "portrait"
+      ],
+      "composition_family": "high",
+      "photographer_instruction": "카메라를 피사체 눈높이보다 조금 높게 해 주세요.",
+      "subject_instruction": "시선은 카메라 위쪽을 자연스럽게 바라보세요.",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "evidence_level": "caption_text_derived",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_0",
+      "title": "Rule of Thirds",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "thirds",
+      "photographer_instruction": "인물을 왼쪽/오른쪽 1/3 교차점에 두고 여백을 확인하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=83s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_1",
+      "title": "Strong Lines",
+      "scene_tags": [
+        "urban"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "배경에서 강한 직선을 찾아 구도를 단순화하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=122s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_2",
+      "title": "Leading Lines",
+      "scene_tags": [
+        "urban",
+        "travel"
+      ],
+      "composition_family": "leading",
+      "photographer_instruction": "도로·계단의 선이 피사체를 향하도록 위치를 바꾸세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=178s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_3",
+      "title": "Symmetry",
+      "scene_tags": [
+        "urban",
+        "architecture"
+      ],
+      "composition_family": "center",
+      "photographer_instruction": "좌우 대칭축을 중앙에 맞추고 수평을 유지하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=216s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_4",
+      "title": "Patterns",
+      "scene_tags": [
+        "urban"
+      ],
+      "composition_family": "pattern",
+      "photographer_instruction": "반복 무늬를 깨는 인물이 보이도록 구성하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=253s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_5",
+      "title": "Dynamic Diagonals",
+      "scene_tags": [
+        "urban",
+        "travel"
+      ],
+      "composition_family": "diagonal",
+      "photographer_instruction": "수직만 고집하지 않고 사선이 흐르도록 위치를 조절하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=295s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_6",
+      "title": "Frame in a Frame",
+      "scene_tags": [
+        "cafe",
+        "urban"
+      ],
+      "composition_family": "frame",
+      "photographer_instruction": "문틀·나뭇잎으로 피사체 주변에 자연스러운 프레임을 만드세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=338s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_7",
+      "title": "Diminishing Perspectives",
+      "scene_tags": [
+        "urban",
+        "travel"
+      ],
+      "composition_family": "perspective",
+      "photographer_instruction": "길 끝 원근점과 인물 위치가 어울리도록 거리감을 표현하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=387s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_8",
+      "title": "Strong Shapes",
+      "scene_tags": [
+        "urban"
+      ],
+      "composition_family": "shape",
+      "photographer_instruction": "배경의 뚜렷한 기하학적 형태를 프레임 안에 배치하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=443s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_9",
+      "title": "Low Angle",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "low",
+      "photographer_instruction": "카메라 높이를 낮춰 하늘이나 원근감을 더 크게 넣으세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=500s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_10",
+      "title": "High Angle",
+      "scene_tags": [
+        "portrait",
+        "cafe"
+      ],
+      "composition_family": "high",
+      "photographer_instruction": "눈높이보다 높은 시점으로 촬영해 소품과 인물을 함께 보이게 하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=553s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_8XBYt-_U4WE_11",
+      "title": "Two Points of Interest",
+      "scene_tags": [
+        "travel",
+        "urban"
+      ],
+      "composition_family": "balance",
+      "photographer_instruction": "주요 피사체 두 개의 균형과 시선 흐름을 조절하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=8XBYt-_U4WE&t=614s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_bch3wXaB32A_0",
+      "title": "Environment",
+      "scene_tags": [
+        "urban",
+        "portrait"
+      ],
+      "composition_family": "scene",
+      "photographer_instruction": "촬영 전에 주변 공간과 빛의 방향을 관찰하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=bch3wXaB32A&t=18s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_bch3wXaB32A_1",
+      "title": "Perspective",
+      "scene_tags": [
+        "portrait",
+        "urban"
+      ],
+      "composition_family": "perspective",
+      "photographer_instruction": "높이와 좌우 촬영 위치를 바꿔 원근감을 비교하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=bch3wXaB32A&t=52s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_bch3wXaB32A_2",
+      "title": "Details",
+      "scene_tags": [
+        "portrait"
+      ],
+      "composition_family": "detail",
+      "photographer_instruction": "손과 소품 등 이야기가 드러나는 작은 부분을 강조해 보세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=bch3wXaB32A&t=140s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_bch3wXaB32A_3",
+      "title": "Directing Subjects",
+      "scene_tags": [
+        "portrait"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "한 번에 포즈 한 가지만 지시해 자연스러운 표정을 유도하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=bch3wXaB32A&t=178s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_NACesGLseh0_0",
+      "title": "Leg length camera angle",
+      "scene_tags": [
+        "portrait",
+        "full_body"
+      ],
+      "composition_family": "low",
+      "photographer_instruction": "카메라 위치가 다리를 부자연스럽게 왜곡하지 않는지 확인하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=NACesGLseh0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_NACesGLseh0_1",
+      "title": "Find light",
+      "scene_tags": [
+        "portrait",
+        "cafe"
+      ],
+      "composition_family": "light",
+      "photographer_instruction": "인물의 얼굴이 부드러운 빛을 받는 위치로 이동하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=NACesGLseh0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_NACesGLseh0_2",
+      "title": "Sitting pose",
+      "scene_tags": [
+        "cafe",
+        "half_body"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "앉은 자세에서 다리·팔이 잘 보이게 촬영 방향을 잡으세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=NACesGLseh0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_A5t1nvOlSw0_0",
+      "title": "Rule of thirds",
+      "scene_tags": [
+        "portrait"
+      ],
+      "composition_family": "thirds",
+      "photographer_instruction": "눈이나 인물이 1/3 지점 근처에 오게 구도를 조절하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=A5t1nvOlSw0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_A5t1nvOlSw0_1",
+      "title": "Leave space",
+      "scene_tags": [
+        "portrait"
+      ],
+      "composition_family": "space",
+      "photographer_instruction": "인물 시선 또는 움직임의 앞쪽에 여백을 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=A5t1nvOlSw0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_A5t1nvOlSw0_2",
+      "title": "Crop awareness",
+      "scene_tags": [
+        "portrait",
+        "full_body"
+      ],
+      "composition_family": "crop",
+      "photographer_instruction": "목·무릎·관절이 어색하게 잘리지 않도록 여백을 점검하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=A5t1nvOlSw0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_A5t1nvOlSw0_3",
+      "title": "Avoid line through head",
+      "scene_tags": [
+        "portrait",
+        "urban"
+      ],
+      "composition_family": "background",
+      "photographer_instruction": "수평선·기둥이 인물의 머리를 관통하지 않게 촬영 위치를 옮기세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=A5t1nvOlSw0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_A5t1nvOlSw0_4",
+      "title": "Foreground element",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "frame",
+      "photographer_instruction": "인물 가까이 있는 식물·문틀 등을 전경으로 이용해 깊이를 만드세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=A5t1nvOlSw0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_-lvTnsu7ZM0_0",
+      "title": "Level horizon",
+      "scene_tags": [
+        "travel",
+        "urban"
+      ],
+      "composition_family": "horizon",
+      "photographer_instruction": "수평을 맞춘 뒤 카메라 기울기를 안정시켜 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=-lvTnsu7ZM0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_-lvTnsu7ZM0_1",
+      "title": "Thirds composition",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "thirds",
+      "photographer_instruction": "3분할선으로 인물과 배경의 균형을 맞춰 주세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=-lvTnsu7ZM0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_-lvTnsu7ZM0_2",
+      "title": "Observe perspective",
+      "scene_tags": [
+        "travel",
+        "urban"
+      ],
+      "composition_family": "perspective",
+      "photographer_instruction": "보이는 방향만 찍지 말고 시점을 바꿔 보세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=-lvTnsu7ZM0",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_9yaxVICc0IE_0",
+      "title": "Horizontal vs vertical composition",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "ratio",
+      "photographer_instruction": "인물과 풍경의 방향에 따라 화면비를 변경하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=9yaxVICc0IE&t=63s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_9yaxVICc0IE_1",
+      "title": "Perspective & distortion",
+      "scene_tags": [
+        "portrait",
+        "full_body"
+      ],
+      "composition_family": "perspective",
+      "photographer_instruction": "피사체 거리와 렌즈 왜곡을 함께 고려해 인체 비율을 조절하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=9yaxVICc0IE&t=117s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_9yaxVICc0IE_2",
+      "title": "Change pose",
+      "scene_tags": [
+        "portrait"
+      ],
+      "composition_family": "pose",
+      "photographer_instruction": "한 번에 손·다리·고개 중 하나만 바꿔 보세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=9yaxVICc0IE&t=280s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_9yaxVICc0IE_3",
+      "title": "Mirror photo",
+      "scene_tags": [
+        "mirror",
+        "portrait"
+      ],
+      "composition_family": "reflection",
+      "photographer_instruction": "거울 가장자리와 카메라 반영이 겹치지 않게 이동하세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=9yaxVICc0IE&t=388s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    },
+    {
+      "id": "yt_9yaxVICc0IE_4",
+      "title": "Foreground depth",
+      "scene_tags": [
+        "portrait",
+        "travel"
+      ],
+      "composition_family": "layer",
+      "photographer_instruction": "사람을 배경에서 분리해 입체감을 살리세요.",
+      "subject_instruction": "",
+      "source_url": "https://www.youtube.com/watch?v=9yaxVICc0IE&t=478s",
+      "evidence_level": "creator_description_or_chapter",
+      "source_media_copied": false,
+      "visual_geometry_verified": false,
+      "pixel_coordinates": null
+    }
+  ],
+  "photo_looks": [
+    {
+      "id": "original",
+      "title": "Original",
+      "detail": "원본 그대로",
+      "exposure": 0,
+      "contrast": 0,
+      "highlights": 0,
+      "shadows": 0,
+      "temperature": 0,
+      "tint": 0,
+      "vibrance": 0,
+      "fade": 0,
+      "grain": 0
+    },
+    {
+      "id": "clean_dslr",
+      "title": "Clean DSLR",
+      "detail": "깨끗한 피부·자연스러운 입체감",
+      "exposure": 0.08,
+      "contrast": 0.1,
+      "highlights": -0.25,
+      "shadows": 0.13,
+      "temperature": 0.04,
+      "tint": 0.015,
+      "vibrance": 0.11,
+      "fade": 0,
+      "grain": 0.005
+    },
+    {
+      "id": "cafe_cream",
+      "title": "Cafe Cream",
+      "detail": "부드러운 베이지와 크리미한 실내 톤",
+      "exposure": 0.13,
+      "contrast": -0.08,
+      "highlights": -0.35,
+      "shadows": 0.22,
+      "temperature": 0.18,
+      "tint": 0.035,
+      "vibrance": -0.09,
+      "fade": 0.13,
+      "grain": 0.008
+    },
+    {
+      "id": "warm_film",
+      "title": "Warm Film",
+      "detail": "따뜻한 필름 입자와 낮은 채도",
+      "exposure": 0.03,
+      "contrast": -0.02,
+      "highlights": -0.3,
+      "shadows": 0.18,
+      "temperature": 0.24,
+      "tint": 0.03,
+      "vibrance": -0.14,
+      "fade": 0.17,
+      "grain": 0.16
+    },
+    {
+      "id": "cool_editorial",
+      "title": "Editorial",
+      "detail": "차분한 블루그레이 감성",
+      "exposure": 0.01,
+      "contrast": 0.17,
+      "highlights": -0.2,
+      "shadows": -0.05,
+      "temperature": -0.18,
+      "tint": -0.02,
+      "vibrance": -0.15,
+      "fade": 0.07,
+      "grain": 0.07
+    },
+    {
+      "id": "golden_hour",
+      "title": "Golden Hour",
+      "detail": "노을 골드·따뜻한 피부톤",
+      "exposure": 0.1,
+      "contrast": 0.05,
+      "highlights": -0.31,
+      "shadows": 0.2,
+      "temperature": 0.29,
+      "tint": 0.06,
+      "vibrance": 0.12,
+      "fade": 0.055,
+      "grain": 0.04
+    },
+    {
+      "id": "moody_cafe",
+      "title": "Moody",
+      "detail": "시네마틱 음영과 진한 색감",
+      "exposure": -0.1,
+      "contrast": 0.26,
+      "highlights": -0.37,
+      "shadows": -0.17,
+      "temperature": 0.07,
+      "tint": 0.02,
+      "vibrance": -0.03,
+      "fade": 0.04,
+      "grain": 0.07
+    }
+  ],
+  "verified_geometry_example_count": 0,
+  "instructional_lessons_stage": "source_text_annotated_not_frame_validated"
 }
