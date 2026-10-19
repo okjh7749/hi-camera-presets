@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2026-10-19-source-instructional-lessons-v1",
+  "version": "2026-10-19-v030-shooting-guides",
   "presets": [
     {
       "id": "fullbody_longlegs",
@@ -2599,5 +2599,714 @@
     }
   ],
   "verified_geometry_example_count": 0,
-  "instructional_lessons_stage": "source_text_annotated_not_frame_validated"
+  "instructional_lessons_stage": "source_text_annotated_not_frame_validated",
+  "shooting_guides": [
+    {
+      "id": "fullbody_longlegs",
+      "title": "전신 롱다리",
+      "goal": "자연스러운 긴 다리 전신샷",
+      "scene_tags": [
+        "#야외",
+        "#전신"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 60~110cm",
+      "photographer_steps": "촬영자는 허리~배꼽 높이에서 시작해 카메라를 과하게 기울이지 말아요. 1x에서 인물이 발끝부터 머리까지 다 들어오도록 한 걸음씩 거리를 조절하세요.",
+      "subject_steps": "몸을 살짝 비스듬하게 세우고 한 발을 반 걸음 앞으로. 앞 무릎을 힘 빼고 팔 한쪽을 자연스럽게 내려보세요.",
+      "background_and_light": "발 아래 여백은 조금, 머리 위 여백은 숨 쉴 정도로 남겨요. 수직선이 보이면 렌즈와 평행하도록 맞추세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "초광각을 발에 가까이 들이대면 다리·얼굴 비율이 과장돼요. 발끝과 머리 잘림을 함께 확인하세요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "cafe_seated",
+      "title": "카페 반신",
+      "goal": "카페 테이블과 반신",
+      "scene_tags": [
+        "#카페",
+        "#반신"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 2,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "앉은 사람의 눈높이에서 조금 옆으로 이동해 얼굴과 손·컵을 함께 담으세요. 창가라면 촬영 위치를 창문 쪽으로 조금 틀어요.",
+      "subject_steps": "잔을 잡거나 턱에 손을 가볍게 대고 창밖을 보세요. 어깨 힘을 풀고 몸을 카메라 쪽으로 살짝 돌려요.",
+      "background_and_light": "머리 뒤에 기둥이 겹치지 않게. 창으로 밝은 영역과 얼굴 밝기의 균형을 비교하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "테이블이 얼굴을 가리거나 컵이 입을 전부 덮지 않도록. 실내 망원은 흔들림을 주의하세요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "travel_back",
+      "title": "여행 뒷모습",
+      "goal": "풍경을 바라보는 여행 뒷모습",
+      "scene_tags": [
+        "#여행",
+        "#뒷모습"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 120~165cm",
+      "photographer_steps": "사람을 풍경의 중앙이나 1/3 지점에 두고 촬영자가 뒤로 물러나 넓은 배경을 확보하세요. 높이는 가슴 근처에서 시작해 조정하세요.",
+      "subject_steps": "풍경을 바라보며 팔이나 머리카락을 자연스럽게 움직여요. 두 발을 약간 벌려 중심을 잡아요.",
+      "background_and_light": "하늘·인물·지면이 서로 구분되게 수평선을 정리하세요. 인물이 너무 검게 되면 노출을 조절하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "인물 윤곽이 배경 기둥이나 수평선과 붙지 않는지 살펴보세요.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "rule_of_thirds",
+      "title": "삼분할 사이드 인물",
+      "goal": "삼분할과 시선 여백",
+      "scene_tags": [
+        "#야외"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "얼굴·상체를 왼쪽 또는 오른쪽 1/3선 가까이에 배치하고 빈 공간을 쳐다보는 방향으로 넓혀보세요.",
+      "subject_steps": "몸은 살짝 대각선, 시선은 화면 안쪽으로 주세요. 자연스럽게 걷거나 멈추는 동작도 좋아요.",
+      "background_and_light": "뒤쪽 배경보다 시선 앞쪽 여백을 넉넉히 주고 인물의 눈 높이를 맞추세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "인물을 지나치게 가장자리에 붙여 귀·손이 잘리지 않게 하세요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "foreground_frame",
+      "title": "전경 프레임",
+      "goal": "나뭇잎·문틀로 액자 만들기",
+      "scene_tags": [
+        "#건축"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "문틀이나 잎을 렌즈 가까이 두되 인물보다 살짝 흐려지게 배치하세요. 인물에 초점을 잡고 가장자리에서만 전경이 보이도록 움직여요.",
+      "subject_steps": "프레임 안쪽으로 한두 걸음 들어가 서고 살짝 옆을 바라봐요.",
+      "background_and_light": "전경·인물·배경의 거리 차이를 주면 깊이가 생겨요. 밝은 얼굴 위로 잎이 겹치지 않게.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "전경이 화면을 절반 이상 가리거나 눈을 덮으면 답답할 수 있어요.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "negative_space",
+      "title": "여백 감성샷",
+      "goal": "여백 중심 감성샷",
+      "scene_tags": [
+        "#풍경"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "대략 120~165cm",
+      "photographer_steps": "인물을 하단 또는 좌우 한쪽에 작게 두고 단순한 하늘·벽·바다를 크게 담으세요. 필요하면 한두 걸음 뒤로 물러나요.",
+      "subject_steps": "넓은 풍경을 바라보거나 반쯤 옆으로 돌아 서보세요.",
+      "background_and_light": "여백은 하나의 큰 면처럼 단순하게 유지하고 인물과 배경 명암을 구분하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "여백이 전신을 압도해 인물이 점처럼 사라지지 않게, 불필요한 표지판을 빼세요.",
+      "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "reflection",
+      "title": "물 반영샷",
+      "goal": "반영과 실제 인물 함께 담기",
+      "scene_tags": [
+        "#반영"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "웅덩이·유리·거울을 찾아 반사면 가까이에 휴대폰을 낮추고 반영이 나타나는 각도를 찾으세요.",
+      "subject_steps": "반사되는 위치에 조용히 서서 한쪽 다리에 체중을 둬보세요.",
+      "background_and_light": "반영은 하단, 실제 인물은 상단에 두거나 반대로 균형 있게 배치하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "물에 너무 가까이 가다 폰을 떨어뜨리지 않도록 주의. 촬영자 본인이 비치지 않는지 확인.",
+      "suggested_photo_look": "moody_cafe",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "leading_lines",
+      "title": "거리 리딩라인",
+      "goal": "길과 난간이 인물로 향하게",
+      "scene_tags": [
+        "#거리"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "도로선이나 난간이 화면 아래에서 시작해 인물 방향으로 모이도록 촬영자 위치를 이동하세요. 바닥 선을 의식하며 높이와 각도를 바꿔요.",
+      "subject_steps": "선이 모이는 쪽에서 가볍게 걸어오거나 서 보세요.",
+      "background_and_light": "원근점이 인물과 연결되면 시선이 자연스럽게 이동해요. 수직 건물은 왜곡 확인.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "횡단보도·도로 촬영에서는 차량과 보행 안전이 가장 먼저예요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DegMcFyiV7R/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "profile_arch",
+      "title": "건물 속 옆모습",
+      "goal": "건축 프레임 속 측면 인물",
+      "scene_tags": [
+        "#건축"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "기둥·아치 틈에 인물이 들어오게 좌우로 움직이고 옆얼굴의 윤곽이 보이는 위치를 찾아요.",
+      "subject_steps": "몸을 45~90도 틀고 건물 안쪽을 바라보세요.",
+      "background_and_light": "아치·창·기둥의 반복선을 정리하고 얼굴이 어두운 배경에 묻히지 않게 빛을 확인하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "기둥이 머리·목을 관통하는 배경 겹침과 모서리 잘림에 주의.",
+      "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DbUs26oCW3k/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "stairs_lines",
+      "title": "계단 리딩라인",
+      "goal": "계단 리딩라인",
+      "scene_tags": [
+        "#계단"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "계단의 사선과 반복을 이용해 인물을 가운데 또는 교차점에 놓아요. 촬영자는 안전한 평지에서 렌즈 높이를 바꿔보세요.",
+      "subject_steps": "한 발 앞에 두고 잠깐 멈추거나 계단을 천천히 내려와보세요.",
+      "background_and_light": "난간·계단의 경사가 인물로 이어지도록 구도 잡고 손발까지 확인하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "촬영자가 뒷걸음치며 계단을 내려가지 않도록 조심.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DbUs26oCW3k/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "cafe_triangle",
+      "title": "카페 삼각형 포즈",
+      "goal": "컵·팔·얼굴의 삼각형",
+      "scene_tags": [
+        "#카페"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.2,
+      "camera_height_note": "서거나 팔을 살짝 높여 촬영",
+      "photographer_steps": "카메라를 살짝 비스듬하게 두어 팔꿈치·컵·얼굴을 세 꼭짓점처럼 배치하세요.",
+      "subject_steps": "팔꿈치를 살짝 굽히고 음료를 얼굴 옆으로 들어보세요.",
+      "background_and_light": "테이블 표면을 적당히 포함하고 컵과 눈이 겹치지 않게 해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "소품이 얼굴을 지나치게 가리거나 손목이 잘리지 않게 해요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "high_angle_cafe",
+      "title": "카페 하이앵글",
+      "goal": "카페 하이앵글",
+      "scene_tags": [
+        "#카페"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1,
+      "camera_height_note": "서거나 팔을 살짝 높여 촬영",
+      "photographer_steps": "인물 눈높이보다 카메라를 약간 높게 들고 테이블·음료·인물을 함께 담으세요.",
+      "subject_steps": "턱을 약간 들어 카메라를 바라보거나 손으로 디저트를 잡아보세요.",
+      "background_and_light": "컵과 소품이 얼굴로 향하는 시선 흐름을 만들고 테이블의 선을 정돈하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "위에서 너무 가까이 찍으면 머리가 과장되고 다리가 짧게 보일 수 있어요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "cafe_side",
+      "title": "여백 카페 반신",
+      "goal": "옆모습과 카페 창가",
+      "scene_tags": [
+        "#카페"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.2,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "앉은 인물의 옆모습이 보이도록 창과 직각 방향에서 촬영하고 시선 앞 공간을 남기세요.",
+      "subject_steps": "창밖을 바라보거나 잔을 가볍게 들어보세요.",
+      "background_and_light": "창틀의 세로선을 정리하고 얼굴에 빛이 한쪽에서 들어오게 위치를 찾으세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "눈·코 윤곽이 창틀 선과 겹치지 않게 미세 이동.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DcVDxHpietu/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "hair_candid",
+      "title": "머리카락 자연스런 포즈",
+      "goal": "머리카락 넘기는 순간",
+      "scene_tags": [
+        "#포즈"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.5,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "인물이 머리를 정리하는 동작 중 여러 장 촬영하고 손과 머리 주변 여백을 확보하세요.",
+      "subject_steps": "고개를 약간 돌려 머리카락을 넘기고 시선을 옆으로 주세요.",
+      "background_and_light": "바람이 자연스럽게 움직이는 밝은 공간에서 배경은 단순하게 잡아요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "빠른 동작은 흔들릴 수 있어 충분한 빛과 안정된 자세를 확보하세요.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "looking_sky",
+      "title": "하늘 바라보기",
+      "goal": "하늘을 바라보는 인물",
+      "scene_tags": [
+        "#포즈"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "카메라를 인물 눈높이보다 약간 아래로 두고 고개 위쪽으로 넓은 하늘 여백을 확보하세요.",
+      "subject_steps": "턱을 조금만 들어 하늘을 보되 목에 힘이 들어가지 않게 해요.",
+      "background_and_light": "눈높이 수평보다 하늘의 색과 구름을 활용해 감정적인 분위기를 만들어요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "코 밑 그림자와 과도한 턱 노출을 확인하세요.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "reed_path",
+      "title": "억새길 중앙",
+      "goal": "억새길 중앙 대칭",
+      "scene_tags": [
+        "#가을",
+        "#여행"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 95~140cm",
+      "photographer_steps": "억새가 양옆에 서 있는 길의 가운데에서 인물이 걸어오는 순간을 잡으세요.",
+      "subject_steps": "길을 따라 천천히 걷고 고개를 가볍게 옆으로 돌려요.",
+      "background_and_light": "양쪽 풀밭이 화면 가장자리, 길은 중앙으로 모이도록 배치해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "머리 위 억새 줄기가 튀어나오거나 발이 잘리지 않게.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "reed_foreground",
+      "title": "억새 전경 레이어",
+      "goal": "억새 전경 레이어",
+      "scene_tags": [
+        "#가을",
+        "#풍경"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 120~165cm",
+      "photographer_steps": "일부 억새를 렌즈 가까이에 흐릿하게 두고 그 뒤 인물에 초점을 맞추세요.",
+      "subject_steps": "억새 너머 풍경을 바라보며 잠깐 멈춰 서세요.",
+      "background_and_light": "전경 풀·인물·먼 배경을 세 거리층으로 나누고 빛이 닿는 방향을 선택해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "앞풀에 자동 초점이 잡히지 않게 인물을 터치하세요.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "low_sky",
+      "title": "낮은 시점 하늘",
+      "goal": "낮은 시점에서 하늘 넓게",
+      "scene_tags": [
+        "#여행"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "대략 60~110cm",
+      "photographer_steps": "무릎 또는 허리 아래 높이에서 렌즈를 위로 약간 올려 인물과 구름을 함께 담으세요.",
+      "subject_steps": "발끝을 살짝 앞에 두고 하늘 쪽으로 시선을 보내요.",
+      "background_and_light": "세로 구도로 인물은 중하단, 하늘은 상단에 넉넉히 둬요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "지나친 틸트는 발·다리 왜곡과 건물 기울기를 만들 수 있어요.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "sunset_tele",
+      "title": "노을 압축 망원",
+      "goal": "노을 속 망원 실루엣",
+      "scene_tags": [
+        "#노을",
+        "#망원"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 3,
+      "camera_height_note": "대략 125~160cm",
+      "photographer_steps": "뒤로 물러나 2~3x로 인물과 붉은 하늘을 압축해보세요. 어두우면 1x가 더 선명할 수 있어요.",
+      "subject_steps": "노을을 배경으로 어깨와 팔 윤곽이 구분되도록 측면으로 서요.",
+      "background_and_light": "하늘 밝기를 기준으로 노출을 낮춰 실루엣을 강조해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "저조도에서 망원이 디지털 크롭으로 바뀔 수 있으니 선명도를 우선 확인하세요.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/reel/Dba5sHdpoHj/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "window_back",
+      "title": "창가 뒷모습",
+      "goal": "창문 앞 뒷모습",
+      "scene_tags": [
+        "#카페",
+        "#뒷모습"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 1.3,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "창틀 전체와 인물 실루엣을 함께 넣되 너무 가까워 창문이 잘리지 않게 뒤로 가세요.",
+      "subject_steps": "창밖을 바라보며 잔을 들거나 손을 창틀에 가볍게 올려요.",
+      "background_and_light": "창틀의 수직과 인물 중심을 맞추고 바깥 풍경이 과노출되지 않게 해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "강한 역광에서 실루엣이 의도보다 검으면 EV나 위치를 조절하세요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "zoom_cafe",
+      "title": "멀리서 찍는 카페샷",
+      "goal": "멀리서 망원 카페 인물",
+      "scene_tags": [
+        "#카페",
+        "#스냅"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 2,
+      "camera_height_note": "대략 125~160cm",
+      "photographer_steps": "촬영자가 조금 뒤로 물러나 2x 근처로 줌을 설정해 배경을 정리해요. 실내가 어둡다면 화질을 확인하세요.",
+      "subject_steps": "자연스럽게 걷거나 머리를 정리하는 동작을 해 주세요.",
+      "background_and_light": "넓은 배경을 흐트러뜨리는 간판·사람을 피하고 얼굴 뒤가 단순하도록 위치를 찾아요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "저조도에서 자동 망원 전환·디지털 확대가 노이즈를 늘릴 수 있어요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mirror_cafe",
+      "title": "카페 거울 반영",
+      "goal": "카페 거울 반영",
+      "scene_tags": [
+        "#카페",
+        "#거울"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "거울 앞에서 카메라 위치를 약간 옆으로 움직여 얼굴과 손이 보이되 렌즈가 주인공이 되지 않게 해요.",
+      "subject_steps": "거울 속 본인을 바라보거나 컵을 든 손을 자연스럽게 내려요.",
+      "background_and_light": "거울 프레임을 수평·수직에 맞추고 주변 조명이 대칭을 만드는지 확인하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "손가락이나 얼굴이 거울 경계에 걸리지 않게.",
+      "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mango_moving_candid",
+      "title": "자연스럽게 걷는 스냅",
+      "goal": "걷는 순간의 자연스러운 스냅",
+      "scene_tags": [
+        "#산책",
+        "#인물",
+        "#움직임"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "먼저 인물이 걸을 공간을 프레임에 확보하고 움직임 진행 방향에 여백을 주며 여러 장 찍어요.",
+      "subject_steps": "천천히 걷고 카메라를 의식하지 말고 옆을 바라보세요.",
+      "background_and_light": "배경의 길·벽 패턴이 지나가는 방향과 어울리게 구성하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "걸음 속도가 빨라 흔들리면 빛 좋은 위치에서 촬영하세요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://petapixel.com/2017/04/24/3-simple-tips-posing-non-models/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mango_scurve",
+      "title": "S라인 곡선 포즈",
+      "goal": "무게중심 S라인 포즈",
+      "scene_tags": [
+        "#전신",
+        "#포즈"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "머리·어깨·골반·발의 흐름이 한 직선으로 뻣뻣하지 않도록 촬영 위치를 조절하세요.",
+      "subject_steps": "한쪽 다리에 체중을 두고 허리·팔·무릎을 편안하게 굽혀 S자 흐름을 만드세요.",
+      "background_and_light": "배경 수직선은 반듯이 두어 사람의 자연스러운 곡선과 대비시키세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "지나치게 과장된 허리 꺾기는 부자연스러워요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://petapixel.com/2017/04/24/3-simple-tips-posing-non-models/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mango_doorframe",
+      "title": "문틀 프레임",
+      "goal": "문틀 속 인물 프레임",
+      "scene_tags": [
+        "#건물",
+        "#문틀"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "문틀 바깥쪽에서 인물이 틀 안에 완전히 들어오게 정면 또는 비스듬히 촬영하세요.",
+      "subject_steps": "문 한쪽에 기대거나 문 안에서 자연스럽게 서요.",
+      "background_and_light": "문틀이 사람을 감싸고 내부 배경은 단정하게 정리해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "문틀 수직선이 크게 휘면 화각과 카메라 틸트를 줄여요.",
+      "suggested_photo_look": "warm_film",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://petapixel.com/2020/09/10/5-basic-photography-techniques-every-beginner-should-know/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mango_colorblocking",
+      "title": "컬러 배경 대비",
+      "goal": "컬러 배경 대비",
+      "scene_tags": [
+        "#색감",
+        "#벽"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.5,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "인물이 입은 옷과 대비되는 단색 벽을 골라 그림자가 얼굴을 덮지 않는 위치에 서요.",
+      "subject_steps": "벽에서 약간 떨어지고 어깨를 틀어 편하게 포즈를 취하세요.",
+      "background_and_light": "배경은 한두 색을 중심으로 간결하게 하고 얼굴의 색을 자연스럽게 표현하세요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "채도를 과하게 올리면 피부색이 붉어지거나 인공적으로 보여요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://petapixel.com/2020/09/10/5-basic-photography-techniques-every-beginner-should-know/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mango_window_moody",
+      "title": "창가 무드 인물샷",
+      "goal": "창가 명암 무드 포트레이트",
+      "scene_tags": [
+        "#카페",
+        "#창가",
+        "#무드"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 2.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "창문을 얼굴 옆 45도에 두고 부드러운 측광을 받아 그림자가 드러나게 촬영해요.",
+      "subject_steps": "얼굴을 창 쪽으로 조금 돌리고 시선은 렌즈 바깥쪽을 보세요.",
+      "background_and_light": "어두운 실내와 밝은 창의 명암 대비가 자연스럽게 나오도록 조절해요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "얼굴 한쪽이 너무 검게 묻히거나 창이 과하게 날아가지 않게.",
+      "suggested_photo_look": "moody_cafe",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://petapixel.com/2019/11/04/back-to-basics-a-beginners-guide-to-capturing-moody-portraits/",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "sorelle_indoor",
+      "title": "실내 여행 셀프샷",
+      "goal": "여행 숙소 실내 셀프샷",
+      "scene_tags": [
+        "#여행",
+        "#실내"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "문틀·창을 배경으로 삼각대나 안정된 곳에 폰을 두고 전체 구도를 먼저 확인하세요.",
+      "subject_steps": "소품을 만지거나 창가로 걸어가며 자연스러운 동작을 하세요.",
+      "background_and_light": "침대·커튼·창처럼 방의 분위기를 보여줄 요소를 한두 개 남겨요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "셀프 촬영 시 흔들리는 가구 위에 폰을 올리지 않게.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.sorelleamore.com/blog/2018/2/12/how-to-take-your-own-travel-photos-indoor-edition",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "mobile_crop_safe",
+      "title": "인스타 4대5 안전 전신",
+      "goal": "인스타 4:5 전신 안전 구도",
+      "scene_tags": [
+        "#인스타",
+        "#4대5"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "처음부터 4:5 구도로 잡고 머리·발·손 주변에 잘릴 공간을 남겨요.",
+      "subject_steps": "시선 방향으로 조금 여유를 두고 팔을 화면 안쪽으로 정리해요.",
+      "background_and_light": "원본 촬영 비율과 업로드용 비율이 같으면 후반 크롭이 줄어요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "관절을 화면 가장자리에 딱 맞추지 않도록 해요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.smartphonephotographytraining.com/composition/composing-for-social-media-formats-frame-with-the-platform-in-mind",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "shutter_pose_lighting",
+      "title": "창가 전신 빛 방향",
+      "goal": "빛과 포즈를 동시에 맞춘 창가 전신",
+      "scene_tags": [
+        "#창가",
+        "#인물"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_3_4",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "빛이 들어오는 창을 인물 옆에 두고 촬영자가 약간 사선으로 이동해 그림자 모양을 확인하세요.",
+      "subject_steps": "몸을 창 쪽으로 30도 돌리고 밝은 쪽에 얼굴을 두세요.",
+      "background_and_light": "배경은 창가의 직선을 수직으로, 얼굴은 밝고 옷 질감은 살아 있게 담아요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "밝기만 올리면 창 바깥이 하얗게 날아갈 수 있어요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://arxiv.org/abs/2605.30318",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "selfie_pose_variations",
+      "title": "기본 포즈 표정 바꾸기",
+      "goal": "같은 포즈에서 표정·시선 변형",
+      "scene_tags": [
+        "#셀프샷",
+        "#표정",
+        "#인물"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "대략 120~160cm",
+      "photographer_steps": "카메라 거리를 고정하고 구도는 유지한 상태에서 여러 장 연속 촬영하세요.",
+      "subject_steps": "기본 포즈는 유지하고 얼굴 방향, 시선, 손 위치만 한 가지씩 바꾸세요.",
+      "background_and_light": "같은 배경·같은 빛이 유지되면 어떤 표정이 가장 어울리는지 비교하기 좋아요.",
+      "focus_note": "인물의 눈·얼굴을 우선하거나 사물의 주요 디테일에 초점을 맞추세요.",
+      "cautions": "한 번에 몸 전체를 바꾸면 비교가 어려워요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": "https://www.sorelleamore.com/blog/2019/4/21/5-self-portrait-hacks-in-300-seconds-advanced-selfie-edition",
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "scene_clean_objects",
+      "title": "미니멀 오브젝트",
+      "goal": "사물·실내 미니멀 구도",
+      "scene_tags": [
+        "#제품",
+        "#사물",
+        "#실내"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "장면에 맞게 조정",
+      "photographer_steps": "주요 사물을 중앙 또는 1/3 교차점에 두고 정면·위쪽 시점을 비교해요.",
+      "subject_steps": "인물이 없는 구도라 피사체 포즈 안내가 필요하지 않아요.",
+      "background_and_light": "테이블의 모서리·모니터 수직선이 비뚤지 않도록 수평을 맞춰요. 주변 잡동사니를 정리하세요.",
+      "focus_note": "가장 중요한 사물이나 풍경 요소에 초점을 맞추세요.",
+      "cautions": "유리·모니터 반사나 사물 뒤 지저분한 요소를 확인하세요.",
+      "suggested_photo_look": "clean_dslr",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "scene_wide_landscape",
+      "title": "와이드 풍경",
+      "goal": "와이드 풍경",
+      "scene_tags": [
+        "#풍경",
+        "#하늘",
+        "#여행"
+      ],
+      "suggested_frame_ratio": "WIDE_16_9",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "장면에 맞게 조정",
+      "photographer_steps": "화면비를 16:9로 잡고 낮은 지평선 또는 높은 지평선 중 주제가 살아나는 쪽을 선택해요.",
+      "subject_steps": "인물이 없는 구도라 피사체 포즈 안내가 필요하지 않아요.",
+      "background_and_light": "앞쪽 풀·바위 같은 전경, 중간의 길, 멀리 있는 산·바다를 거리감 있게 배치해요.",
+      "focus_note": "가장 중요한 사물이나 풍경 요소에 초점을 맞추세요.",
+      "cautions": "하늘과 땅이 반반일 필요는 없어요. 수평선을 의도 없이 기울이지 않게.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "scene_architecture",
+      "title": "도시 라인",
+      "goal": "건물의 대칭과 리딩라인",
+      "scene_tags": [
+        "#건축",
+        "#도시",
+        "#선"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "장면에 맞게 조정",
+      "photographer_steps": "건물 정면에서는 수직선에 맞춰 촬영하고, 사선에서는 길과 난간의 선을 활용해요.",
+      "subject_steps": "인물이 없는 구도라 피사체 포즈 안내가 필요하지 않아요.",
+      "background_and_light": "창문·기둥·계단이 반복되면 패턴을 살리고 눈에 띄는 한 요소를 중심으로 삼아요.",
+      "focus_note": "가장 중요한 사물이나 풍경 요소에 초점을 맞추세요.",
+      "cautions": "아주 가까운 초광각으로 모서리를 과장하면 건물이 기울어 보일 수 있어요.",
+      "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    }
+  ]
 }
