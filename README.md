@@ -22,7 +22,7 @@ original Instagram/YouTube media.
    check (or via manual **업데이트 확인**).
 5. If the network or validation fails, the app keeps its last good copy.
 
-Publish **only these three files**. Do not push the parent HI_CAMERA folder.
+Publish **only the allowlisted data and guide files** (feed.json, README.md, .gitignore, guide_34_ko.md and guide_54_ko.md). Do not push the parent HI_CAMERA folder.
 
 ## Technical details
 On-device camera/pose/scene inference sends zero frames to GitHub.
