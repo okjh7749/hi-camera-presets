@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.apk
+*.jpg
+*.png
+*.jpeg
+*.mp4
+*.key
+*.pem
+.env*

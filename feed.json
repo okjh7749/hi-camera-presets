@@ -1,0 +1,1291 @@
+{
+  "schema_version": 2,
+  "version": "2026-10-19-v2",
+  "presets": [
+    {
+      "id": "fullbody_longlegs",
+      "title": "전신 롱다리",
+      "style": "FULL_BODY",
+      "tags": [
+        "#야외",
+        "#전신"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.17,
+        "foot_y": 0.95,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "무릎을 굽혀 낮은 시점으로 인물을 찍되 초광각 왜곡을 주의하세요.",
+      "subject": "한쪽 발을 앞에 두고 몸의 방향을 살짝 틀어주세요",
+      "source": {
+        "url": null,
+        "provenance": "designer_seed",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "배꼽~무릎",
+        "height_guidance": "대략 60~110cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "cafe_seated",
+      "title": "카페 반신",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페",
+        "#반신"
+      ],
+      "camera": {
+        "zoom": 2,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.19,
+        "foot_y": 0.88,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "음료를 들고 창밖을 바라보세요",
+      "source": {
+        "url": null,
+        "provenance": "designer_seed",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "travel_back",
+      "title": "여행 뒷모습",
+      "style": "FULL_BODY",
+      "tags": [
+        "#여행",
+        "#뒷모습"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.3,
+        "foot_y": 0.91,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물보다 배경·수평선·시선 방향 여백을 우선 확보하세요.",
+      "subject": "풍경을 바라보고 자연스럽게 서주세요",
+      "source": {
+        "url": null,
+        "provenance": "designer_seed",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~165cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "rule_of_thirds",
+      "title": "삼분할 사이드 인물",
+      "style": "FULL_BODY",
+      "tags": [
+        "#야외"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.34,
+        "head_y": 0.22,
+        "foot_y": 0.94,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "시선은 여백이 있는 쪽을 바라보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DegMcFyiV7R/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "foreground_frame",
+      "title": "전경 프레임",
+      "style": "FULL_BODY",
+      "tags": [
+        "#건축"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.21,
+        "foot_y": 0.89,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "구조물 사이에 자연스럽게 서주세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DegMcFyiV7R/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "negative_space",
+      "title": "여백 감성샷",
+      "style": "FULL_BODY",
+      "tags": [
+        "#풍경"
+      ],
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.72,
+        "head_y": 0.43,
+        "foot_y": 0.86,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물보다 배경·수평선·시선 방향 여백을 우선 확보하세요.",
+      "subject": "주변 풍경을 바라보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DegMcFyiV7R/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~165cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "reflection",
+      "title": "물 반영샷",
+      "style": "FULL_BODY",
+      "tags": [
+        "#반영"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.24,
+        "foot_y": 0.7,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "물 가장자리에서 반사된 실루엣을 활용하세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DegMcFyiV7R/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "leading_lines",
+      "title": "거리 리딩라인",
+      "style": "FULL_BODY",
+      "tags": [
+        "#거리"
+      ],
+      "camera": {
+        "zoom": 0.8,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.29,
+        "foot_y": 0.9,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "길의 선이 모이는 위치에 서주세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DegMcFyiV7R/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "profile_arch",
+      "title": "건물 속 옆모습",
+      "style": "HALF_BODY",
+      "tags": [
+        "#건축"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.21,
+        "foot_y": 0.87,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "몸을 약간 옆으로 돌리고 시선을 멀리 두세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DbUs26oCW3k/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "stairs_lines",
+      "title": "계단 리딩라인",
+      "style": "FULL_BODY",
+      "tags": [
+        "#계단"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.42,
+        "foot_y": 0.9,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "계단 중앙에서 한 발 앞으로 내디뎌 보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DbUs26oCW3k/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "cafe_triangle",
+      "title": "카페 삼각형 포즈",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페"
+      ],
+      "camera": {
+        "zoom": 1.2,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.19,
+        "foot_y": 0.9,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "높은 위치에서 내려다보고 얼굴과 소품을 삼각형으로 배치하세요.",
+      "subject": "팔과 손, 머리를 이용해 자연스러운 삼각형을 만드세요",
+      "source": {
+        "url": "https://www.instagram.com/p/Db7VoVYiS3m/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "피사체 눈높이보다 높게",
+        "height_guidance": "서거나 팔을 살짝 높여 촬영",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "high_angle_cafe",
+      "title": "카페 하이앵글",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.19,
+        "foot_y": 0.9,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "높은 위치에서 내려다보고 얼굴과 소품을 삼각형으로 배치하세요.",
+      "subject": "디저트나 음료를 들고 위쪽 카메라를 보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DcVDxHpietu/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "피사체 눈높이보다 높게",
+        "height_guidance": "서거나 팔을 살짝 높여 촬영",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "cafe_side",
+      "title": "여백 카페 반신",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페"
+      ],
+      "camera": {
+        "zoom": 1.2,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.34,
+        "head_y": 0.19,
+        "foot_y": 0.83,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "카페 내부를 바라보며 앉아보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DcVDxHpietu/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "hair_candid",
+      "title": "머리카락 자연스런 포즈",
+      "style": "HALF_BODY",
+      "tags": [
+        "#포즈"
+      ],
+      "camera": {
+        "zoom": 1.5,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.19,
+        "foot_y": 0.9,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "머리카락을 한 손으로 잡고 시선을 옆으로 돌려보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "looking_sky",
+      "title": "하늘 바라보기",
+      "style": "HALF_BODY",
+      "tags": [
+        "#포즈"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.2,
+        "foot_y": 0.92,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "하늘을 바라보며 고개를 살짝 올려보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/Dcvtwfxif9M/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "reed_path",
+      "title": "억새길 중앙",
+      "style": "FULL_BODY",
+      "tags": [
+        "#가을",
+        "#여행"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.3,
+        "foot_y": 0.93,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "격자선과 인물 크기를 먼저 맞추고 주변 배경을 확인하세요.",
+      "subject": "길의 가운데에서 천천히 걸어보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "허리~가슴",
+        "height_guidance": "대략 95~140cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "reed_foreground",
+      "title": "억새 전경 레이어",
+      "style": "FULL_BODY",
+      "tags": [
+        "#가을",
+        "#풍경"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.58,
+        "head_y": 0.38,
+        "foot_y": 0.85,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물보다 배경·수평선·시선 방향 여백을 우선 확보하세요.",
+      "subject": "억새 사이에서 풍경을 바라보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~165cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "low_sky",
+      "title": "낮은 시점 하늘",
+      "style": "FULL_BODY",
+      "tags": [
+        "#여행"
+      ],
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.45,
+        "head_y": 0.43,
+        "foot_y": 0.97,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "무릎을 굽혀 낮은 시점으로 인물을 찍되 초광각 왜곡을 주의하세요.",
+      "subject": "하늘이 보이는 방향으로 서주세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DeTtJ6viYCw/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "배꼽~무릎",
+        "height_guidance": "대략 60~110cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "sunset_tele",
+      "title": "노을 압축 망원",
+      "style": "FULL_BODY",
+      "tags": [
+        "#노을",
+        "#망원"
+      ],
+      "camera": {
+        "zoom": 3,
+        "ev": -0.8,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.32,
+        "foot_y": 0.92,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "멀리 떨어져 줌을 사용하되 저조도에서는 지원 렌즈의 화질을 확인하세요.",
+      "subject": "빛을 등지고 편안하게 서주세요",
+      "source": {
+        "url": "https://www.instagram.com/reel/Dba5sHdpoHj/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 125~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "window_back",
+      "title": "창가 뒷모습",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페",
+        "#뒷모습"
+      ],
+      "camera": {
+        "zoom": 1.3,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.65,
+        "head_y": 0.2,
+        "foot_y": 0.86,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "창밖을 바라보고 음료를 가볍게 들어주세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16"
+    },
+    {
+      "id": "zoom_cafe",
+      "title": "멀리서 찍는 카페샷",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페",
+        "#스냅"
+      ],
+      "camera": {
+        "zoom": 2,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.21,
+        "foot_y": 0.88,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "멀리 떨어져 줌을 사용하되 저조도에서는 지원 렌즈의 화질을 확인하세요.",
+      "subject": "걸어가거나 머리를 묶는 자연스러운 동작을 해보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 125~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "mirror_cafe",
+      "title": "카페 거울 반영",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페",
+        "#거울"
+      ],
+      "camera": {
+        "zoom": 1,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.2,
+        "foot_y": 0.92,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물의 얼굴과 손동작이 자연스럽게 보이도록 눈높이를 조절하세요.",
+      "subject": "거울 속 시선을 카메라 옆으로 돌려보세요",
+      "source": {
+        "url": "https://www.instagram.com/p/DZQ3cTIk_TU/",
+        "provenance": "caption_concept_with_design_estimated_geometry",
+        "confidence": 0.38,
+        "coordinates_verified_from_image": false
+      },
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE"
+    },
+    {
+      "id": "mango_moving_candid",
+      "title": "자연스럽게 걷는 스냅",
+      "style": "FULL_BODY",
+      "tags": [
+        "#산책",
+        "#인물",
+        "#움직임"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.17,
+        "foot_y": 0.95,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "한두 걸음 천천히 걸으면서 옆을 바라보세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://petapixel.com/2017/04/24/3-simple-tips-posing-non-models/",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "mango_scurve",
+      "title": "S라인 곡선 포즈",
+      "style": "FULL_BODY",
+      "tags": [
+        "#전신",
+        "#포즈"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.17,
+        "foot_y": 0.94,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "한쪽 다리에 체중을 두고 팔과 무릎을 부드럽게 구부리세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://petapixel.com/2017/04/24/3-simple-tips-posing-non-models/",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "mango_doorframe",
+      "title": "문틀 프레임",
+      "style": "FULL_BODY",
+      "tags": [
+        "#건물",
+        "#문틀"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.22,
+        "foot_y": 0.91,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "문틀 안쪽에 서서 옆을 봐주세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://petapixel.com/2020/09/10/5-basic-photography-techniques-every-beginner-should-know/",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "mango_colorblocking",
+      "title": "컬러 배경 대비",
+      "style": "HALF_BODY",
+      "tags": [
+        "#색감",
+        "#벽"
+      ],
+      "camera": {
+        "zoom": 1.5,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.35,
+        "head_y": 0.19,
+        "foot_y": 0.88,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "배경색이 단순한 벽 앞에서 살짝 옆으로 서주세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://petapixel.com/2020/09/10/5-basic-photography-techniques-every-beginner-should-know/",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "mango_window_moody",
+      "title": "창가 무드 인물샷",
+      "style": "HALF_BODY",
+      "tags": [
+        "#카페",
+        "#창가",
+        "#무드"
+      ],
+      "camera": {
+        "zoom": 2.0,
+        "ev": -0.6,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.62,
+        "head_y": 0.19,
+        "foot_y": 0.85,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "창문 쪽으로 얼굴을 돌리고 빛이 얼굴 한쪽에 들어오게 해주세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://petapixel.com/2019/11/04/back-to-basics-a-beginners-guide-to-capturing-moody-portraits/",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "sorelle_indoor",
+      "title": "실내 여행 셀프샷",
+      "style": "FULL_BODY",
+      "tags": [
+        "#여행",
+        "#실내"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.24,
+        "foot_y": 0.91,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "소품이나 가방을 만지며 자연스럽게 움직여 보세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://www.sorelleamore.com/blog/2018/2/12/how-to-take-your-own-travel-photos-indoor-edition",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "mobile_crop_safe",
+      "title": "인스타 4대5 안전 전신",
+      "style": "FULL_BODY",
+      "tags": [
+        "#인스타",
+        "#4대5"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.17,
+        "foot_y": 0.88,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "머리와 신발이 잘리지 않도록 안전 여백을 확보하세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://www.smartphonephotographytraining.com/composition/composing-for-social-media-formats-frame-with-the-platform-in-mind",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "shutter_pose_lighting",
+      "title": "창가 전신 빛 방향",
+      "style": "FULL_BODY",
+      "tags": [
+        "#창가",
+        "#인물"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.3,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.46,
+        "head_y": 0.2,
+        "foot_y": 0.93,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "인물 크기와 수평을 맞추고 빛과 배경을 확인하세요.",
+      "subject": "창문 방향으로 몸을 살짝 돌리고 자연스럽게 서보세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://arxiv.org/abs/2605.30318",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_3_4"
+    },
+    {
+      "id": "selfie_pose_variations",
+      "title": "기본 포즈 표정 바꾸기",
+      "style": "HALF_BODY",
+      "tags": [
+        "#셀프샷",
+        "#표정",
+        "#인물"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.0,
+        "mode": "PHOTO",
+        "af": "FACE"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.19,
+        "foot_y": 0.89,
+        "tolerance_x": 0.075,
+        "tolerance_y": 0.06,
+        "pitch": null
+      },
+      "photographer": "기본 포즈는 유지하고 표정과 시선만 조금씩 바꿔 연속 촬영하세요.",
+      "subject": "자세는 그대로 두고 고개와 시선을 조금씩 바꿔보세요.",
+      "posture": {
+        "level": "가슴~눈높이",
+        "height_guidance": "대략 120~160cm",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "source": {
+        "url": "https://www.sorelleamore.com/blog/2019/4/21/5-self-portrait-hacks-in-300-seconds-advanced-selfie-edition",
+        "provenance": "educational_concept_with_design_estimated_geometry",
+        "confidence": 0.25,
+        "coordinates_verified_from_image": false
+      },
+      "frame_ratio": "PORTRAIT_4_5"
+    },
+    {
+      "id": "scene_clean_objects",
+      "title": "미니멀 오브젝트",
+      "style": "SCENE",
+      "tags": [
+        "#제품",
+        "#사물",
+        "#실내"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.0,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.25,
+        "foot_y": 0.85,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.08,
+        "pitch": null
+      },
+      "photographer": "주요 피사체에 초점을 맞추고 배경을 정리하세요",
+      "subject": "",
+      "posture": {
+        "level": "수평·배경 중심",
+        "height_guidance": "장면에 맞게 조정",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE",
+      "source": {
+        "url": null,
+        "provenance": "scene_type_designer_seed",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "scene_wide_landscape",
+      "title": "와이드 풍경",
+      "style": "SCENE",
+      "tags": [
+        "#풍경",
+        "#하늘",
+        "#여행"
+      ],
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.25,
+        "foot_y": 0.85,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.08,
+        "pitch": null
+      },
+      "photographer": "수평선을 바르게 잡고 풍경의 레이어를 보여주세요",
+      "subject": "",
+      "posture": {
+        "level": "수평·배경 중심",
+        "height_guidance": "장면에 맞게 조정",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "WIDE_16_9",
+      "source": {
+        "url": null,
+        "provenance": "scene_type_designer_seed",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "scene_architecture",
+      "title": "도시 라인",
+      "style": "SCENE",
+      "tags": [
+        "#건축",
+        "#도시",
+        "#선"
+      ],
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.25,
+        "foot_y": 0.85,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.08,
+        "pitch": null
+      },
+      "photographer": "건물의 수직선과 리딩라인을 정리하세요",
+      "subject": "",
+      "posture": {
+        "level": "수평·배경 중심",
+        "height_guidance": "장면에 맞게 조정",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "scene_type_designer_seed",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    }
+  ]
+}
