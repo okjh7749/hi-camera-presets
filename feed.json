@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2026-10-19-v030-shooting-guides",
+  "version": "2026-10-19-v040-food-coffee-bakery-landscape",
   "presets": [
     {
       "id": "fullbody_longlegs",
@@ -1283,6 +1283,806 @@
       "source": {
         "url": null,
         "provenance": "scene_type_designer_seed",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "food_tray_topdown",
+      "title": "한식 식판 탑뷰",
+      "style": "SCENE",
+      "tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "category": "food",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.28,
+        "foot_y": 0.76,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "식판 중앙 위에서 렌즈가 식판과 평행해지도록 휴대폰을 내려다보세요. 가장자리와 네 모서리를 모두 넣고 수평을 맞춰요.",
+      "subject": "튀어나온 수저와 젓가락도 프레임에 들어오게 정리하세요. 식판 가장자리는 조금 여유 있게 비워 둡니다.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "food_45deg_meal",
+      "title": "한 끼 식사 45도",
+      "style": "SCENE",
+      "tags": [
+        "#food",
+        "#음식",
+        "#plate"
+      ],
+      "category": "food",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.1,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.52,
+        "head_y": 0.30000000000000004,
+        "foot_y": 0.78,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "식탁에 앉은 눈높이보다 약간 높게 휴대폰을 들고 아래로 35~55도 비스듬히 향하세요. 메인 접시가 가운데에 오게 합니다.",
+      "subject": "메인 음식은 앞쪽, 반찬은 뒤쪽에 놓아 겹침을 줄이세요. 수저와 컵은 시선을 방해하지 않게 둡니다.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "food_soup_close",
+      "title": "국물·면 근접샷",
+      "style": "SCENE",
+      "tags": [
+        "#food",
+        "#음식",
+        "#bowl"
+      ],
+      "category": "food",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.1,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.30000000000000004,
+        "foot_y": 0.78,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "그릇 옆 30~45도 정도에서 접근하되 렌즈 초점이 잡힐 거리는 유지하고, 국물의 윤기와 고명에 초점을 잡으세요.",
+      "subject": "면은 젓가락에 살짝 들어 올리거나 고명을 그릇 중앙에 놓아 주인공이 분명해지게 해요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "dessert_table_topview",
+      "title": "디저트 상차림 탑뷰",
+      "style": "SCENE",
+      "tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "category": "food",
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0.08,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.26,
+        "foot_y": 0.74,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "테이블 바로 위에서 수평을 맞춰 작은 접시 2~3개가 화면 안에 정갈하게 들어오도록 위치를 잡으세요.",
+      "subject": "접시 사이 간격을 일정하게 만들고 작은 포크나 냅킨으로 화면에 방향성을 주세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "table_spread_balanced",
+      "title": "여러 메뉴 테이블샷",
+      "style": "SCENE",
+      "tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "category": "food",
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.1,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.28,
+        "foot_y": 0.76,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "중앙 메인 요리부터 프레이밍하고 그 주변에 반찬과 음료가 반원처럼 연결되게 위에서 비스듬히 촬영하세요.",
+      "subject": "접시 크기에 따라 큰 것부터 가운데, 작은 것은 가장자리에 배치하고 수저를 일렬로 정리하세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "coffee_single_minimal",
+      "title": "커피컵 단독 감성",
+      "style": "SCENE",
+      "tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "category": "coffee",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.08,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.25,
+        "foot_y": 0.73,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "컵보다 조금 높은 위치에서 사선으로 찍고, 손잡이가 보이도록 좌우로 움직여 배경을 단순하게 만들어요.",
+      "subject": "컵 손잡이와 받침을 정리하고 테이블에 책 한 권 정도만 두어 시선을 집중시키세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "coffee_window_mood",
+      "title": "창가 커피 무드",
+      "style": "SCENE",
+      "tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "category": "coffee",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.36,
+        "head_y": 0.32000000000000006,
+        "foot_y": 0.8,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "창가 45도 측면에 앉아 컵은 프레임 아래 1/3에 놓고 창밖 여백이 보이도록 카메라를 조절하세요.",
+      "subject": "컵 옆에 책이나 작은 접시만 남기고 손을 넣을 경우 컵을 가볍게 감싸 주세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "cafe_table_story",
+      "title": "카페 테이블 스토리",
+      "style": "SCENE",
+      "tags": [
+        "#coffee",
+        "#커피",
+        "#tray"
+      ],
+      "category": "coffee",
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.32000000000000006,
+        "foot_y": 0.8,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "테이블 모서리가 대각선으로 들어오도록 서서 컵, 케이크, 펼친 노트가 함께 보이는 35~55도 각도로 촬영하세요.",
+      "subject": "메인 컵을 화면 아래쪽에, 노트와 디저트를 뒤쪽에 두고 소품은 3개 이내로 정리해요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "brunch_table_topview",
+      "title": "브런치 테이블 탑뷰",
+      "style": "SCENE",
+      "tags": [
+        "#coffee",
+        "#커피",
+        "#tray"
+      ],
+      "category": "coffee",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.08,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.27,
+        "foot_y": 0.75,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "식탁을 수직으로 내려다보며 큰 접시를 한쪽에, 컵을 반대쪽 대각선에 두어 두 주인공 사이의 여백을 살려요.",
+      "subject": "포크와 나이프는 음식 쪽을 향하게 두고 꽃이나 책은 프레임 끝부분에만 조금 포함하세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "hand_holding_cup",
+      "title": "손과 머그컵 스냅",
+      "style": "SCENE",
+      "tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "category": "coffee",
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.56,
+        "head_y": 0.29000000000000004,
+        "foot_y": 0.77,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "컵과 손이 같이 보이는 옆 45도 높이에서 촬영하고 컵이 얼굴 또는 배경과 겹치지 않게 방향을 바꿔요.",
+      "subject": "컵을 한 손 또는 두 손으로 가볍게 잡고 손목에 힘을 빼 자연스럽게 움직여 주세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "bakery_display_wide",
+      "title": "빵 진열대 와이드",
+      "style": "SCENE",
+      "tags": [
+        "#bakery",
+        "#베이커리",
+        "#tray"
+      ],
+      "category": "bakery",
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.1,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.27,
+        "foot_y": 0.75,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "진열대 정면에서 한두 걸음 떨어져 가로 화면으로 선반의 수평선을 맞추고 여러 종류의 빵을 한눈에 담으세요.",
+      "subject": "가장 예쁜 빵이 시선 시작점에 오도록 화면을 정리하고 가격표가 가리는 영역은 최소화하세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "WIDE_16_9",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "bakery_single_close",
+      "title": "크로와상 클로즈업",
+      "style": "SCENE",
+      "tags": [
+        "#bakery",
+        "#베이커리",
+        "#plate"
+      ],
+      "category": "bakery",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.12,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.32000000000000006,
+        "foot_y": 0.8,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "빵의 옆면이 보이는 낮은 35도 각도에서 적당히 가까이 촬영해 껍질의 결에 초점을 맞춰요.",
+      "subject": "접시나 트레이 위 빵 하나만 주인공으로 두고 집게·포장지는 프레임 밖으로 옮겨요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "bread_pairing_coffee",
+      "title": "빵과 커피 한 쌍",
+      "style": "SCENE",
+      "tags": [
+        "#bakery",
+        "#베이커리",
+        "#pair"
+      ],
+      "category": "bakery",
+      "camera": {
+        "zoom": 1.0,
+        "ev": 0,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.28,
+        "foot_y": 0.76,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "컵과 크로와상을 화면의 좌하단·우상단처럼 대각선 양끝에 두고 45도에서 촬영하세요.",
+      "subject": "컵 손잡이는 빵 쪽으로 향하게 돌리고 메뉴는 두 가지로 단순하게 유지해요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "SQUARE",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "dessert_showcase",
+      "title": "케이크 쇼케이스",
+      "style": "SCENE",
+      "tags": [
+        "#bakery",
+        "#베이커리",
+        "#plate"
+      ],
+      "category": "bakery",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.48,
+        "head_y": 0.27,
+        "foot_y": 0.75,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "유리 앞에서 카메라를 약간 비껴 세워 반사를 줄이고, 케이크의 층과 장식이 보이는 정면 20~40도로 촬영하세요.",
+      "subject": "주인공 케이크가 가운데 오게 두고 옆 케이크는 살짝만 보여 대비를 주세요.",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "landscape_wide_horizon",
+      "title": "바다·호수 수평선",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.2,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.31000000000000005,
+        "foot_y": 0.79,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "카메라를 수평에 맞추고 하늘이 예쁘면 수평선을 아래 1/3에, 물결이 예쁘면 위 1/3에 놓아요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "WIDE_16_9",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "landscape_sky_emphasis",
+      "title": "하늘 강조 감성 풍경",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#sky"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 0.8,
+        "ev": -0.25,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.36,
+        "foot_y": 0.84,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "휴대폰을 세로로 잡고 산·나무·건물의 실루엣은 아래쪽에 조금만 남기고 하늘을 넓게 담으세요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "TALL_9_16",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "sunset_landscape",
+      "title": "노을 색감 풍경",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.4,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.31000000000000005,
+        "foot_y": 0.79,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "해가 지는 방향을 보며 폰을 수평으로 잡고 하늘의 붉은 띠가 가장 선명한 높이로 프레임을 조절해요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "WIDE_16_9",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "leading_path_landscape",
+      "title": "산책로 리딩라인 풍경",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#lines"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.1,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.32000000000000006,
+        "foot_y": 0.8,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "산책로 한가운데가 아닌 안전한 위치에서 길 양쪽 선이 화면 아래부터 멀리 만나는 구도를 찾아요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "city_nightscape",
+      "title": "도시 야경·반사",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.5,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.5,
+        "head_y": 0.26,
+        "foot_y": 0.74,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "난간이나 안정된 면을 지지대로 삼아 휴대폰을 흔들리지 않게 고정하고 건물 수직선과 수평선을 정리하세요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "WIDE_16_9",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
+        "confidence": 0.2,
+        "coordinates_verified_from_image": false
+      }
+    },
+    {
+      "id": "architecture_travel_view",
+      "title": "여행지 랜드마크 와이드",
+      "style": "SCENE",
+      "tags": [
+        "#landscape",
+        "#풍경",
+        "#lines"
+      ],
+      "category": "landscape",
+      "camera": {
+        "zoom": 1.0,
+        "ev": -0.15,
+        "mode": "PHOTO",
+        "af": "AUTO"
+      },
+      "target": {
+        "head_x": 0.51,
+        "head_y": 0.28,
+        "foot_y": 0.76,
+        "tolerance_x": 0.08,
+        "tolerance_y": 0.075,
+        "pitch": null
+      },
+      "photographer": "건물과 약간 거리를 두고 수직선이 곧게 서도록 휴대폰을 반듯하게 잡아요. 정면 대칭 또는 사선 리딩라인 중 하나를 선택하세요.",
+      "subject": "",
+      "posture": {
+        "level": "사물·풍경 기준",
+        "height_guidance": "촬영 시작점 제안, 실측값 아님",
+        "height_is_measured": false,
+        "pitch_is_calibrated": false
+      },
+      "frame_ratio": "PORTRAIT_4_5",
+      "source": {
+        "url": null,
+        "provenance": "editorial_camera_composition_seed_not_source_exif",
         "confidence": 0.2,
         "coordinates_verified_from_image": false
       }
@@ -2596,6 +3396,62 @@
       "vibrance": -0.03,
       "fade": 0.04,
       "grain": 0.07
+    },
+    {
+      "id": "food_fresh",
+      "title": "Fresh Food",
+      "detail": "음식의 질감과 자연스러운 따뜻함",
+      "exposure": 0.1,
+      "contrast": 0.12,
+      "highlights": -0.3,
+      "shadows": 0.15,
+      "temperature": 0.1,
+      "tint": 0.01,
+      "vibrance": 0.18,
+      "fade": 0.01,
+      "grain": 0.002
+    },
+    {
+      "id": "bakery_golden",
+      "title": "Bakery Gold",
+      "detail": "빵의 황금빛 결을 따뜻하게",
+      "exposure": 0.08,
+      "contrast": 0.1,
+      "highlights": -0.27,
+      "shadows": 0.19,
+      "temperature": 0.24,
+      "tint": 0.025,
+      "vibrance": 0.13,
+      "fade": 0.025,
+      "grain": 0.015
+    },
+    {
+      "id": "landscape_clear",
+      "title": "Clear View",
+      "detail": "하늘·산·바다의 시원한 색감",
+      "exposure": 0.02,
+      "contrast": 0.15,
+      "highlights": -0.35,
+      "shadows": 0.14,
+      "temperature": -0.08,
+      "tint": 0,
+      "vibrance": 0.17,
+      "fade": 0.0,
+      "grain": 0.0
+    },
+    {
+      "id": "night_city",
+      "title": "Night City",
+      "detail": "야경의 조명과 진한 그림자",
+      "exposure": -0.08,
+      "contrast": 0.22,
+      "highlights": -0.4,
+      "shadows": 0.1,
+      "temperature": -0.13,
+      "tint": 0.0,
+      "vibrance": 0.05,
+      "fade": 0.02,
+      "grain": 0.02
     }
   ],
   "verified_geometry_example_count": 0,
@@ -3304,6 +4160,446 @@
       "focus_note": "가장 중요한 사물이나 풍경 요소에 초점을 맞추세요.",
       "cautions": "아주 가까운 초광각으로 모서리를 과장하면 건물이 기울어 보일 수 있어요.",
       "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "food_tray_topdown",
+      "title": "한식 식판 탑뷰",
+      "goal": "식판 전체와 반찬의 균형을 정갈하게 기록해요",
+      "scene_tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "식판 중앙 위에서 렌즈가 식판과 평행해지도록 휴대폰을 내려다보세요. 가장자리와 네 모서리를 모두 넣고 수평을 맞춰요.",
+      "subject_steps": "튀어나온 수저와 젓가락도 프레임에 들어오게 정리하세요. 식판 가장자리는 조금 여유 있게 비워 둡니다.",
+      "background_and_light": "밝은 조명이 식판에 반사되면 옆으로 한 걸음 이동하세요. 뜨거운 국이나 액체 가까이에 폰을 대지 마세요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "먹던 식판이라면 튄 양념을 정리하고, 반찬이 잘리거나 식판이 사다리꼴로 보이지 않는지 확인하세요.",
+      "suggested_photo_look": "food_fresh",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "food_45deg_meal",
+      "title": "한 끼 식사 45도",
+      "goal": "한 접시 주인공과 여러 음식의 높낮이를 담아요",
+      "scene_tags": [
+        "#food",
+        "#음식",
+        "#plate"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "식탁에 앉은 눈높이보다 약간 높게 휴대폰을 들고 아래로 35~55도 비스듬히 향하세요. 메인 접시가 가운데에 오게 합니다.",
+      "subject_steps": "메인 음식은 앞쪽, 반찬은 뒤쪽에 놓아 겹침을 줄이세요. 수저와 컵은 시선을 방해하지 않게 둡니다.",
+      "background_and_light": "측면 창빛이 식감을 살리고 접시 앞쪽에 그림자를 만들어요. 반사가 강한 비닐과 형광등을 피하세요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "너무 낮은 시점은 접시 뒷부분을 가리고, 너무 높은 시점은 음식의 두께감을 잃게 해요.",
+      "suggested_photo_look": "food_fresh",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "food_soup_close",
+      "title": "국물·면 근접샷",
+      "goal": "국물 표면과 면·고명의 맛있는 질감을 강조해요",
+      "scene_tags": [
+        "#food",
+        "#음식",
+        "#bowl"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "그릇 옆 30~45도 정도에서 접근하되 렌즈 초점이 잡힐 거리는 유지하고, 국물의 윤기와 고명에 초점을 잡으세요.",
+      "subject_steps": "면은 젓가락에 살짝 들어 올리거나 고명을 그릇 중앙에 놓아 주인공이 분명해지게 해요.",
+      "background_and_light": "뜨거운 김이 보이면 측광이나 역광을 활용하고, 그릇 가장자리가 깔끔하게 나오도록 배경을 단순하게 해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "렌즈에 김이 서리거나 국물이 튀지 않도록 거리를 유지하고 지나친 디지털 확대는 피하세요.",
+      "suggested_photo_look": "food_fresh",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "dessert_table_topview",
+      "title": "디저트 상차림 탑뷰",
+      "goal": "접시·디저트·포크를 균형감 있게 배열해요",
+      "scene_tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "테이블 바로 위에서 수평을 맞춰 작은 접시 2~3개가 화면 안에 정갈하게 들어오도록 위치를 잡으세요.",
+      "subject_steps": "접시 사이 간격을 일정하게 만들고 작은 포크나 냅킨으로 화면에 방향성을 주세요.",
+      "background_and_light": "창가의 부드러운 빛을 활용하고 흰 접시가 과하게 날아가지 않도록 화면 밝기를 살펴요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "작은 소품이 너무 많으면 음식보다 테이블이 복잡해지므로 중요한 3가지만 남겨요.",
+      "suggested_photo_look": "bakery_golden",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "table_spread_balanced",
+      "title": "여러 메뉴 테이블샷",
+      "goal": "메인 메뉴와 사이드가 자연스럽게 이어지는 테이블 사진",
+      "scene_tags": [
+        "#food",
+        "#음식",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "중앙 메인 요리부터 프레이밍하고 그 주변에 반찬과 음료가 반원처럼 연결되게 위에서 비스듬히 촬영하세요.",
+      "subject_steps": "접시 크기에 따라 큰 것부터 가운데, 작은 것은 가장자리에 배치하고 수저를 일렬로 정리하세요.",
+      "background_and_light": "음식 표면에 빛이 고르게 닿는 쪽으로 방향을 선택하고 프레임 모서리를 불필요한 메뉴판이 채우지 않게 해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "음식이 겹쳐 잘리거나 사람의 손·팔이 갑자기 들어오는지 확인해요.",
+      "suggested_photo_look": "food_fresh",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "coffee_single_minimal",
+      "title": "커피컵 단독 감성",
+      "goal": "커피 한 잔과 넓은 테이블 여백을 감성적으로 남겨요",
+      "scene_tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "컵보다 조금 높은 위치에서 사선으로 찍고, 손잡이가 보이도록 좌우로 움직여 배경을 단순하게 만들어요.",
+      "subject_steps": "컵 손잡이와 받침을 정리하고 테이블에 책 한 권 정도만 두어 시선을 집중시키세요.",
+      "background_and_light": "창빛이 컵에 부드럽게 반사되는 자리를 찾고 어두운 배경이면 밝은 커피 거품을 살려요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "컵 손잡이 잘림이나 머그 뒤쪽의 복잡한 인테리어가 보이지 않게 확인하세요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "coffee_window_mood",
+      "title": "창가 커피 무드",
+      "goal": "창과 커피의 따뜻한 분위기를 함께 담아요",
+      "scene_tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "창가 45도 측면에 앉아 컵은 프레임 아래 1/3에 놓고 창밖 여백이 보이도록 카메라를 조절하세요.",
+      "subject_steps": "컵 옆에 책이나 작은 접시만 남기고 손을 넣을 경우 컵을 가볍게 감싸 주세요.",
+      "background_and_light": "창을 배경으로 찍을 때 컵이 너무 어두우면 노출을 조금 올리고, 흰색 하늘이 날아가지 않게 비교해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "컵 표면에 촬영자가 비치거나 컵 위로 창틀이 겹치지 않는지 확인해요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "cafe_table_story",
+      "title": "카페 테이블 스토리",
+      "goal": "음료·디저트·노트를 사용해 머무는 시간을 표현해요",
+      "scene_tags": [
+        "#coffee",
+        "#커피",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "테이블 모서리가 대각선으로 들어오도록 서서 컵, 케이크, 펼친 노트가 함께 보이는 35~55도 각도로 촬영하세요.",
+      "subject_steps": "메인 컵을 화면 아래쪽에, 노트와 디저트를 뒤쪽에 두고 소품은 3개 이내로 정리해요.",
+      "background_and_light": "카페 조명의 노란빛이 강하면 색온도를 낮춰 원두와 디저트 색을 자연스럽게 유지해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "테이블의 물자국, 사용한 휴지, 지저분한 접시 가장자리가 시선을 뺏지 않게 해요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "brunch_table_topview",
+      "title": "브런치 테이블 탑뷰",
+      "goal": "브런치 접시와 커피를 리듬 있게 구성해요",
+      "scene_tags": [
+        "#coffee",
+        "#커피",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "식탁을 수직으로 내려다보며 큰 접시를 한쪽에, 컵을 반대쪽 대각선에 두어 두 주인공 사이의 여백을 살려요.",
+      "subject_steps": "포크와 나이프는 음식 쪽을 향하게 두고 꽃이나 책은 프레임 끝부분에만 조금 포함하세요.",
+      "background_and_light": "반숙 달걀·토스트의 명암을 살리려면 옆창빛이 좋은 위치를 찾아요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "접시가 화면 밖으로 지나치게 잘리면 균형이 무너져요. 빈 테이블을 더 넣을지 의식적으로 결정하세요.",
+      "suggested_photo_look": "food_fresh",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "hand_holding_cup",
+      "title": "손과 머그컵 스냅",
+      "goal": "손의 동작으로 카페의 순간을 담아요",
+      "scene_tags": [
+        "#coffee",
+        "#커피",
+        "#cup"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "컵과 손이 같이 보이는 옆 45도 높이에서 촬영하고 컵이 얼굴 또는 배경과 겹치지 않게 방향을 바꿔요.",
+      "subject_steps": "컵을 한 손 또는 두 손으로 가볍게 잡고 손목에 힘을 빼 자연스럽게 움직여 주세요.",
+      "background_and_light": "따뜻한 커피와 부드러운 손 피부가 자연스럽게 보이도록 창가 확산광을 선택해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "손끝이 프레임 바깥에서 어색하게 잘리거나 뜨거운 잔을 무리하게 잡지 않도록 해요.",
+      "suggested_photo_look": "cafe_cream",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "bakery_display_wide",
+      "title": "빵 진열대 와이드",
+      "goal": "빵집 쇼케이스와 종류별 빵의 반복 패턴을 담아요",
+      "scene_tags": [
+        "#bakery",
+        "#베이커리",
+        "#tray"
+      ],
+      "suggested_frame_ratio": "WIDE_16_9",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "진열대 정면에서 한두 걸음 떨어져 가로 화면으로 선반의 수평선을 맞추고 여러 종류의 빵을 한눈에 담으세요.",
+      "subject_steps": "가장 예쁜 빵이 시선 시작점에 오도록 화면을 정리하고 가격표가 가리는 영역은 최소화하세요.",
+      "background_and_light": "유리 쇼케이스 반사가 강하면 카메라를 약간 옆으로 옮겨 반사를 줄이세요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "타인의 얼굴이 프레임에 불필요하게 들어오거나 매장 촬영 규정에 어긋나지 않는지 확인하세요.",
+      "suggested_photo_look": "bakery_golden",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "bakery_single_close",
+      "title": "크로와상 클로즈업",
+      "goal": "겹겹이 쌓인 빵의 결·바삭함을 강조해요",
+      "scene_tags": [
+        "#bakery",
+        "#베이커리",
+        "#plate"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "빵의 옆면이 보이는 낮은 35도 각도에서 적당히 가까이 촬영해 껍질의 결에 초점을 맞춰요.",
+      "subject_steps": "접시나 트레이 위 빵 하나만 주인공으로 두고 집게·포장지는 프레임 밖으로 옮겨요.",
+      "background_and_light": "창빛이 빵결의 음영을 만들어 따뜻한 갈색이 살아나게 해요. 번쩍이는 직광은 피하세요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "카메라가 너무 가까워 초점을 잃지 않도록, 필요하면 뒤로 물러나 촬영 후 크롭하세요.",
+      "suggested_photo_look": "bakery_golden",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "bread_pairing_coffee",
+      "title": "빵과 커피 한 쌍",
+      "goal": "빵·컵을 대각선으로 짝지어 균형을 만들어요",
+      "scene_tags": [
+        "#bakery",
+        "#베이커리",
+        "#pair"
+      ],
+      "suggested_frame_ratio": "SQUARE",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "컵과 크로와상을 화면의 좌하단·우상단처럼 대각선 양끝에 두고 45도에서 촬영하세요.",
+      "subject_steps": "컵 손잡이는 빵 쪽으로 향하게 돌리고 메뉴는 두 가지로 단순하게 유지해요.",
+      "background_and_light": "테이블의 색과 빵의 갈색이 구분되도록 흰 접시나 베이지 냅킨을 이용하세요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "서로 너무 가까워 겹치면 음식 형태가 사라지니 사이 간격을 조금 주세요.",
+      "suggested_photo_look": "bakery_golden",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "dessert_showcase",
+      "title": "케이크 쇼케이스",
+      "goal": "쇼케이스 속 예쁜 케이크 한두 개에 집중해요",
+      "scene_tags": [
+        "#bakery",
+        "#베이커리",
+        "#plate"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "유리 앞에서 카메라를 약간 비껴 세워 반사를 줄이고, 케이크의 층과 장식이 보이는 정면 20~40도로 촬영하세요.",
+      "subject_steps": "주인공 케이크가 가운데 오게 두고 옆 케이크는 살짝만 보여 대비를 주세요.",
+      "background_and_light": "유리 속 조명이 너무 노랗다면 화이트밸런스 느낌을 조절하고 크림의 흰 부분을 살려요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "유리 반사에 카메라·인물이 비치지 않도록 유의하고 진열대의 가격표를 가리지 말아요.",
+      "suggested_photo_look": "bakery_golden",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "landscape_wide_horizon",
+      "title": "바다·호수 수평선",
+      "goal": "넓은 바다와 수평선의 안정감을 표현해요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "suggested_frame_ratio": "WIDE_16_9",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "카메라를 수평에 맞추고 하늘이 예쁘면 수평선을 아래 1/3에, 물결이 예쁘면 위 1/3에 놓아요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "전경에 바위나 모래를 조금 넣으면 깊이가 생겨요. 시간대에 따라 물과 하늘의 밝기를 비교해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "수평선이 기울면 풍경 전체가 불안정하게 보여요. 렌즈 가장자리 휘어짐도 확인하세요.",
+      "suggested_photo_look": "landscape_clear",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "landscape_sky_emphasis",
+      "title": "하늘 강조 감성 풍경",
+      "goal": "멋진 구름과 파란 하늘을 화면의 주인공으로 만들어요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#sky"
+      ],
+      "suggested_frame_ratio": "TALL_9_16",
+      "suggested_zoom": 0.8,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "휴대폰을 세로로 잡고 산·나무·건물의 실루엣은 아래쪽에 조금만 남기고 하늘을 넓게 담으세요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "가벼운 구름의 방향과 건물 꼭대기 선을 조합하고 밝은 구름 디테일이 날아가지 않게 노출을 낮춰요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "무조건 위로만 올리면 땅이 전부 빠지니 풍경을 설명해주는 전경 한 요소를 꼭 남겨요.",
+      "suggested_photo_look": "landscape_clear",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "sunset_landscape",
+      "title": "노을 색감 풍경",
+      "goal": "노을의 붉은 그라데이션과 실루엣을 담아요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "suggested_frame_ratio": "WIDE_16_9",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "해가 지는 방향을 보며 폰을 수평으로 잡고 하늘의 붉은 띠가 가장 선명한 높이로 프레임을 조절해요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "어두운 건물·나무를 실루엣으로 남기면 색 대비가 살아나요. 밝은 하늘을 기준으로 EV를 소폭 낮춰요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "태양을 오래 직접 바라보지 말고 빛이 과하게 번져 색층이 사라지지 않게 하세요.",
+      "suggested_photo_look": "golden_hour",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "leading_path_landscape",
+      "title": "산책로 리딩라인 풍경",
+      "goal": "길이 멀리 이어지는 깊이감을 담아요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#lines"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "산책로 한가운데가 아닌 안전한 위치에서 길 양쪽 선이 화면 아래부터 멀리 만나는 구도를 찾아요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "오른쪽과 왼쪽 나무의 높이·원근감을 맞추고 걷는 방향으로 이어지는 길을 보이게 해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "차량·자전거 도로에서는 촬영을 위해 차로로 들어가지 않도록 안전을 우선하세요.",
+      "suggested_photo_look": "landscape_clear",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "city_nightscape",
+      "title": "도시 야경·반사",
+      "goal": "가로등·건물 조명과 밤 도시의 리듬을 담아요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#horizon"
+      ],
+      "suggested_frame_ratio": "WIDE_16_9",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "난간이나 안정된 면을 지지대로 삼아 휴대폰을 흔들리지 않게 고정하고 건물 수직선과 수평선을 정리하세요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "비 온 뒤 물웅덩이 반사를 전경에 포함하고 네온과 어두운 영역이 모두 보이는 위치를 찾아요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "디지털 줌을 줄이고 야간에서는 가능한 한 1x 렌즈와 안정된 자세를 사용하세요.",
+      "suggested_photo_look": "cool_editorial",
+      "evidence_level": "editorial_experimental_guidance_not_measured_exif",
+      "source_url": null,
+      "copyrighted_photo_archived": false
+    },
+    {
+      "id": "architecture_travel_view",
+      "title": "여행지 랜드마크 와이드",
+      "goal": "건물의 구조와 주변 장소의 분위기를 함께 남겨요",
+      "scene_tags": [
+        "#landscape",
+        "#풍경",
+        "#lines"
+      ],
+      "suggested_frame_ratio": "PORTRAIT_4_5",
+      "suggested_zoom": 1.0,
+      "camera_height_note": "촬영하는 음식·풍경의 높이에 따라 조정하세요. 각도는 가이드에서 시작하세요.",
+      "photographer_steps": "건물과 약간 거리를 두고 수직선이 곧게 서도록 휴대폰을 반듯하게 잡아요. 정면 대칭 또는 사선 리딩라인 중 하나를 선택하세요.",
+      "subject_steps": "인물이 없는 장면입니다. 피사체 대신 음식·풍경의 위치와 여백을 정돈하세요.",
+      "background_and_light": "전경의 나무·난간을 소량 포함해 실제 장소의 깊이감을 살리고 건물 윤곽과 하늘이 구분되게 해요.",
+      "focus_note": "접시·빵·커피는 맛있어 보이는 표면에, 풍경은 주제 요소에 초점을 맞추세요.",
+      "cautions": "발밑만 맞추려다 건물 꼭대기가 잘리거나 광각 가장자리 왜곡이 생기지 않도록 해요.",
+      "suggested_photo_look": "landscape_clear",
       "evidence_level": "editorial_experimental_guidance_not_measured_exif",
       "source_url": null,
       "copyrighted_photo_archived": false
