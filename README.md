@@ -10,8 +10,10 @@ original Instagram/YouTube media.
 - Active library: experimental composition presets with source/provenance.
 - Numerical camera/framing values are **design estimates**, not extracted EXIF.
 - Original referenced image/video copyright remains with the source creators.
-- 100 visually reviewed reference examples are a future curation goal,
-  not a completed collection.
+- 76 actual real-photograph reference cases have been visually reviewed, sourced,
+  and mapped to scene presets. These are **not** AI model weight training.
+- Goal: ~100 high-quality visual references; remaining source gaps will
+  be reviewed rather than filled with fictitious numeric coordinates.
 
 ## Safe update workflow
 1. Update composition data in `G:\HI_CAMERA\updates\feed.json`.
@@ -22,7 +24,7 @@ original Instagram/YouTube media.
    check (or via manual **업데이트 확인**).
 5. If the network or validation fails, the app keeps its last good copy.
 
-Publish **only the allowlisted data and guide files** (feed.json, README.md, .gitignore, guide_34_ko.md and guide_54_ko.md). Do not push the parent HI_CAMERA folder.
+Publish **only the allowlisted data and guide files** (feed.json, README.md, .gitignore, guide_34_ko.md, guide_54_ko.md and verified_photo_refs_76_ko.md). Do not push the parent HI_CAMERA folder.
 
 ## Technical details
 On-device camera/pose/scene inference sends zero frames to GitHub.
